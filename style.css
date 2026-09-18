@@ -848,6 +848,11 @@ a {
     align-items: stretch;
 }
 
+.software-pricing-grid {
+    grid-template-columns: repeat(2, minmax(0, 345px));
+    justify-content: center;
+}
+
 .website-pricing-card {
     display: flex;
     flex-direction: column;
