@@ -1717,3 +1717,13 @@ a {
     justify-content: center;
     margin: 30px 0 50px;
 }
+
+.site-footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #48CAE4;
+    text-decoration: underline;
+}
