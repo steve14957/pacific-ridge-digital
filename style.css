@@ -1727,3 +1727,12 @@ a {
     color: #48CAE4;
     text-decoration: underline;
 }
+
+.booking-cta {
+    text-align: center;
+    margin: 20px auto 40px;
+}
+
+.booking-cta p {
+    margin-bottom: 12px;
+}
