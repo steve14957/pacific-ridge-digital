@@ -1729,10 +1729,11 @@ a {
 }
 
 .booking-cta {
+    width: 100%;
     text-align: center;
-    margin: 20px auto 40px;
+    margin: 30px auto 50px;
 }
 
 .booking-cta p {
-    margin-bottom: 12px;
+    margin: 0 0 12px;
 }
