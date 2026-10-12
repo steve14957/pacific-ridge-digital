@@ -381,5 +381,49 @@
 
     </footer>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".contact-form");
+    const submitButton = form.querySelector('button[type="submit"]');
+
+    const statusMessage = document.createElement("p");
+    statusMessage.setAttribute("role", "alert");
+    statusMessage.style.marginTop = "15px";
+    form.appendChild(statusMessage);
+
+    form.addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        submitButton.disabled = true;
+        submitButton.textContent = "Submitting...";
+        statusMessage.textContent = "";
+
+        try {
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: new FormData(form),
+                headers: {
+                    "Accept": "application/json"
+                }
+            });
+
+            if (response.ok) {
+                window.location.href = "support-thank-you.html";
+            } else {
+                throw new Error("Submission failed");
+            }
+
+        } catch (error) {
+            statusMessage.textContent =
+                "We couldn't submit your request. Please try again or email contact@pacificridgedigital.com.";
+
+            statusMessage.style.color = "#B42318";
+            submitButton.disabled = false;
+            submitButton.textContent = "Submit Support Request";
+        }
+    });
+});
+</script>
+
 </body>
 </html>
