@@ -1843,5 +1843,15 @@ a {
     margin: 0 auto;
 }
 
+/* Compact homepage header */
+
+.site-header .header-container {
+    min-height: 65px;
+    padding: 10px 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
 
 
