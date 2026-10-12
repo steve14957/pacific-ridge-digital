@@ -1833,12 +1833,15 @@ a {
     justify-content: center;
 }
 
-.banner-image {
+
+.site-banner img.banner-image {
     display: block;
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     height: auto;
     object-fit: contain;
+    margin: 0 auto;
 }
+
 
 
