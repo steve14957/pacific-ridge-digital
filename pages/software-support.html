@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Software Support | Pacific Ridge Digital</title>
+
+    <meta name="description"
+          content="Get technical support for Pacific Ridge Digital software applications, including Pacific Ridge STEM Studio and File Studio.">
+
+    <link rel="icon" type="image/png" sizes="512x512"
+          href="../assets/images/favicon.png">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="contact-page">
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+
+            <a href="../index.html" class="logo-link">
+                <img src="../assets/images/pacific-ridge-digital.png"
+                     alt="Pacific Ridge Digital"
+                     class="site-logo">
+            </a>
+
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="web-design-development.html">Web Design &amp; Development</a>
+                <a href="software-development.html">Software Development</a>
+                <a href="digital-solutions.html">Digital Solutions</a>
+                <a href="hosting-maintenance.html">Hosting &amp; Maintenance</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="software-support.html" aria-current="page">Software Support</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="page-hero-content">
+
+                <p class="hero-eyebrow">Pacific Ridge Digital Software</p>
+
+                <h1>Software Support Center</h1>
+
+                <p>
+                    Need assistance with one of our software applications?
+                    We're here to help. Submit a support request below,
+                    and we'll review your issue and get back to you.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Support Form -->
+        <section class="contact-section">
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">Technical Assistance</p>
+
+                    <h2>Submit a Support Request</h2>
+
+                    <p>
+                        Please provide as much information as possible
+                        so we can better understand and troubleshoot
+                        your issue.
+                    </p>
+                </div>
+
+                <div class="contact-layout">
+
+                    <form class="contact-form"
+                          action="https://formspree.io/f/xdealbaw"
+                          method="POST"
+                          aria-describedby="support-privacy">
+
+                        <input type="hidden"
+                               name="_subject"
+                               value="Pacific Ridge Digital - Software Support Request">
+
+                        <input type="hidden"
+                               name="request_type"
+                               value="Software Support">
+
+                        <div class="contact-form-grid">
+
+                            <!-- Name -->
+                            <div class="form-field">
+                                <label for="support-name">
+                                    Full Name *
+                                </label>
+
+                                <input type="text"
+                                       id="support-name"
+                                       name="name"
+                                       autocomplete="name"
+                                       required>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="form-field">
+                                <label for="support-email">
+                                    Email Address *
+                                </label>
+
+                                <input type="email"
+                                       id="support-email"
+                                       name="email"
+                                       autocomplete="email"
+                                       required>
+                            </div>
+
+                            <!-- Application -->
+                            <div class="form-field">
+                                <label for="support-application">
+                                    Software Application *
+                                </label>
+
+                                <select id="support-application"
+                                        name="application"
+                                        required>
+
+                                    <option value="" selected disabled>
+                                        Select an application
+                                    </option>
+
+                                    <option value="Pacific Ridge STEM Studio">
+                                        Pacific Ridge STEM Studio
+                                    </option>
+
+                                    <option value="Pacific Ridge File Studio">
+                                        Pacific Ridge File Studio
+                                    </option>
+
+                                    <option value="Other Application">
+                                        Other Application
+                                    </option>
+
+                                </select>
+                            </div>
+
+                            <!-- Operating System -->
+                            <div class="form-field">
+                                <label for="support-os">
+                                    Operating System *
+                                </label>
+
+                                <select id="support-os"
+                                        name="operating_system"
+                                        required>
+
+                                    <option value="" selected disabled>
+                                        Select your operating system
+                                    </option>
+
+                                    <option value="Windows">Windows</option>
+                                    <option value="macOS">macOS</option>
+                                    <option value="Android">Android</option>
+                                    <option value="iOS">iOS / iPadOS</option>
+                                    <option value="Other">Other</option>
+
+                                </select>
+                            </div>
+
+                            <!-- Issue Type -->
+                            <div class="form-field">
+                                <label for="support-issue">
+                                    Type of Issue *
+                                </label>
+
+                                <select id="support-issue"
+                                        name="issue_type"
+                                        required>
+
+                                    <option value="" selected disabled>
+                                        Select an issue type
+                                    </option>
+
+                                    <option value="Installation">
+                                        Installation Problem
+                                    </option>
+
+                                    <option value="Activation">
+                                        Activation / Licensing
+                                    </option>
+
+                                    <option value="Application Error">
+                                        Application Error / Crash
+                                    </option>
+
+                                    <option value="Feature Question">
+                                        Feature Question
+                                    </option>
+
+                                    <option value="Performance">
+                                        Performance Problem
+                                    </option>
+
+                                    <option value="Other">
+                                        Other Issue
+                                    </option>
+
+                                </select>
+                            </div>
+
+                            <!-- App Version -->
+                            <div class="form-field">
+                                <label for="support-version">
+                                    Application Version
+                                    <span class="optional-label">Optional</span>
+                                </label>
+
+                                <input type="text"
+                                       id="support-version"
+                                       name="application_version"
+                                       placeholder="Example: 1.0.0">
+                            </div>
+
+                            <!-- Problem Description -->
+                            <div class="form-field form-field-full">
+
+                                <label for="support-description">
+                                    Describe the Problem *
+                                </label>
+
+                                <textarea id="support-description"
+                                          name="problem_description"
+                                          rows="8"
+                                          placeholder="Tell us what happened, what you expected to happen, and any error messages you received."
+                                          required></textarea>
+
+                            </div>
+
+                            <!-- Troubleshooting -->
+                            <div class="form-field form-field-full">
+
+                                <label for="support-troubleshooting">
+                                    Troubleshooting Steps Already Attempted
+                                    <span class="optional-label">Optional</span>
+                                </label>
+
+                                <textarea id="support-troubleshooting"
+                                          name="troubleshooting_attempted"
+                                          rows="5"
+                                          placeholder="Have you restarted the application, reinstalled it, or tried anything else?"></textarea>
+
+                            </div>
+
+                        </div>
+
+                        <p class="form-privacy" id="support-privacy">
+                            Information submitted through this form will be
+                            used to respond to your support request.
+                            Please do not include passwords, payment
+                            information, license keys, or other sensitive
+                            personal information.
+                        </p>
+
+                        <button type="submit"
+                                class="contact-submit-button">
+                            Submit Support Request
+                        </button>
+
+                    </form>
+
+                    <!-- Alternative Contact -->
+                    <aside class="alternative-contact">
+
+                        <p class="section-eyebrow">Additional Assistance</p>
+
+                        <h2>Contact Software Support</h2>
+
+                        <p>
+                            If you prefer to contact us directly,
+                            you can email our support team.
+                            Please include the application name
+                            and a description of the issue.
+                        </p>
+
+                        <div class="email-placeholder">
+                            <a href="mailto:contact@pacificridgedigital.com?subject=Software%20Support%20Request">
+                                contact@pacificridgedigital.com
+                            </a>
+                        </div>
+
+                        <h3>Supported Applications</h3>
+
+                        <p>
+                            Pacific Ridge STEM Studio
+                        </p>
+
+                        <p>
+                            Pacific Ridge File Studio
+                        </p>
+
+                        <p>
+                            Additional Pacific Ridge Digital
+                            applications will be added as they
+                            become available.
+                        </p>
+
+                    </aside>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- What Happens Next -->
+        <section class="contact-next-section">
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <p class="section-eyebrow">Support Process</p>
+
+                    <h2>What Happens Next?</h2>
+
+                    <p>
+                        Our support process is designed to help
+                        resolve software issues as efficiently
+                        as possible.
+                    </p>
+                </div>
+
+                <div class="contact-steps-grid">
+
+                    <article class="process-step">
+                        <span>01</span>
+                        <h3>Submit Your Request</h3>
+                        <p>
+                            Complete the support form with details
+                            about your application and issue.
+                        </p>
+                    </article>
+
+                    <article class="process-step">
+                        <span>02</span>
+                        <h3>We Review the Issue</h3>
+                        <p>
+                            We examine the information provided
+                            and identify possible solutions.
+                        </p>
+                    </article>
+
+                    <article class="process-step">
+                        <span>03</span>
+                        <h3>We Follow Up</h3>
+                        <p>
+                            We'll contact you by email with
+                            troubleshooting instructions,
+                            additional questions, or next steps.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <p>
+            &copy; 2026 Pacific Ridge Digital LLC.
+            All Rights Reserved.
+        </p>
+
+        <p class="veteran-footer">Veteran Owned LLC</p>
+
+    </footer>
+
+</body>
+</html>
