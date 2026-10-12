@@ -1819,5 +1819,22 @@ a {
         right: 15px;
         top: 100%;
     }
+   
+/* ========================================
+   Pacific Ridge Digital Homepage Banner
+   ======================================== */
+
+.site-banner {
+    width: 100%;
+    background-color: #051f34;
+    overflow: hidden;
+}
+
+.banner-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 }
 
