@@ -1820,21 +1820,27 @@ a {
         top: 100%;
     }
    
+
 /* ========================================
    Pacific Ridge Digital Homepage Banner
    ======================================== */
 
 .site-banner {
     width: 100%;
+    padding: 15px 20px;
     background-color: #051f34;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .banner-image {
     display: block;
     width: 100%;
+    max-width: 1000px;
     height: auto;
+    object-fit: contain;
 }
+
 
 }
 
