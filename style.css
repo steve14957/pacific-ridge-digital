@@ -1820,37 +1820,20 @@ a {
         top: 100%;
     }
    
-
-/* ========================================
-   Pacific Ridge Digital Homepage Banner
-   ======================================== */
-
-.site-banner {
-    width: 100%;
-    padding: 15px 20px;
-    background-color: #051f34;
-    display: flex;
-    justify-content: center;
-}
-
-
-.site-banner img.banner-image {
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto;
-}
-
-/* Compact homepage header */
+/* ===== Header Logo and Menu Alignment ===== */
 
 .site-header .header-container {
-    min-height: 65px;
-    padding: 10px 30px;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.menu-toggle {
+    margin-left: auto;
+}
+
+
+
 
 
 
