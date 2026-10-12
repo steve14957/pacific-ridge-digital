@@ -1737,3 +1737,87 @@ a {
 .booking-cta p {
     margin: 0 0 12px;
 }
+
+/* ===== Pacific Ridge Digital Navigation Menu ===== */
+
+.header-container {
+    position: relative;
+}
+
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    background: #082d4a;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus-visible {
+    background: #0b6fa4;
+}
+
+.main-nav {
+    display: none;
+    position: absolute;
+    top: calc(100% - 10px);
+    right: 30px;
+    width: min(300px, calc(100vw - 40px));
+    max-height: 70vh;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 0;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 12px 30px rgba(8,45,74,0.18);
+    z-index: 1000;
+}
+
+.main-nav.menu-open {
+    display: flex;
+}
+
+.main-nav a {
+    display: block;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.main-nav a:hover,
+.main-nav a:focus-visible {
+    background: #f7fafc;
+    color: #f26a2e;
+}
+
+@media (max-width: 700px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .site-logo {
+        width: min(190px, 45vw);
+    }
+
+    .menu-toggle {
+        padding: 10px 14px;
+    }
+
+    .main-nav {
+        right: 15px;
+        top: 100%;
+    }
+}
+
