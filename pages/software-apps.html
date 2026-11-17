@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18487639021"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-18487639021');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Software Apps | Pacific Ridge Digital</title>
+    <meta name="description" content="Explore desktop software from Pacific Ridge Digital, including PDF Studio, File Studio, and STEM Studio. Available for Windows with Mac versions coming soon.">
+
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/images/favicon.png">
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        .software-apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+            gap: 28px;
+            margin-top: 35px;
+        }
+
+        .software-app-card {
+            background: #172342;
+            color: #fff;
+            border-radius: 16px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,.12);
+        }
+
+        .software-app-card h3 {
+            color: #48CAE4;
+            font-size: 1.4rem;
+            margin: 0;
+        }
+
+        .software-app-card p {
+            color: #E0E1DD;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .app-platform {
+            color: #48CAE4;
+            font-weight: 600;
+            font-size: .9rem;
+        }
+
+        .app-store-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: auto;
+            padding-top: 12px;
+        }
+
+        .app-store-button {
+            display: block;
+            padding: 14px;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 700;
+            background: #F77F00;
+            color: #fff;
+        }
+
+        .app-store-button:hover {
+            background: #db7000;
+        }
+
+        .app-coming-soon {
+            padding: 14px;
+            border: 1px solid #66758f;
+            border-radius: 8px;
+            text-align: center;
+            color: #E0E1DD;
+        }
+
+        .software-app-icon {
+            width: 64px;
+            height: 64px;
+            display: grid;
+            place-items: center;
+            background: #233454;
+            color: #48CAE4;
+            border-radius: 14px;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="../index.html" class="logo-link">
+                <img src="../assets/images/pacific-ridge-digital.png"
+                     alt="Pacific Ridge Digital"
+                     class="site-logo">
+            </a>
+
+            <button class="menu-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="site-navigation">
+                <span aria-hidden="true">&#9776;</span>
+                Menu
+            </button>
+
+            <nav class="main-nav"
+                 id="site-navigation"
+                 aria-label="Main navigation">
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="page-hero-content">
+                <p class="hero-eyebrow">Pacific Ridge Digital Software</p>
+                <h1>Our Software Applications</h1>
+                <p>
+                    Explore practical desktop applications designed
+                    to make everyday tasks easier, from managing
+                    documents and organizing files to working with audio.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="section-eyebrow">Explore Our Apps</p>
+                    <h2>Software Built for Everyday Productivity</h2>
+                    <p>
+                        Discover our Windows applications, available
+                        through the Microsoft Store. Mac versions
+                        are coming soon.
+                    </p>
+                </div>
+
+                <div class="software-apps-grid">
+
+                    <!-- PDF Studio -->
+                    <article class="software-app-card">
+                        <div class="software-app-icon" aria-hidden="true">📄</div>
+                        <h3>Pacific Ridge PDF Studio</h3>
+                        <p>
+                            Create PDFs from text and images, edit
+                            documents, merge and split files, convert
+                            formats, add signatures, apply watermarks,
+                            and protect sensitive documents.
+                        </p>
+                        <p class="app-platform">Windows — Available Now</p>
+                        <div class="app-store-actions">
+                            <a class="app-store-button"
+                               href="#"
+                               data-store-link="pdf"
+                               aria-disabled="true">
+                                Microsoft Store Link Coming Soon
+                            </a>
+                            <div class="app-coming-soon">
+                                Mac App Store — Coming Soon
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- File Studio -->
+                    <article class="software-app-card">
+                        <div class="software-app-icon" aria-hidden="true">📁</div>
+                        <h3>Pacific Ridge File Studio</h3>
+                        <p>
+                            Organize folders, identify duplicate
+                            files, clean up downloads, manage photos,
+                            and undo organization changes with
+                            convenient desktop tools.
+                        </p>
+                        <p class="app-platform">Windows — Available Now</p>
+                        <div class="app-store-actions">
+                            <a class="app-store-button"
+                               href="#"
+                               data-store-link="file"
+                               aria-disabled="true">
+                                Microsoft Store Link Coming Soon
+                            </a>
+                            <div class="app-coming-soon">
+                                Mac App Store — Coming Soon
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- STEM Studio -->
+                    <article class="software-app-card">
+                        <div class="software-app-icon" aria-hidden="true">🎵</div>
+                        <h3>Pacific Ridge STEM Studio</h3>
+                        <p>
+                            Separate audio into 2, 4, or 6 stems
+                            for music practice, production, remixing,
+                            and creative audio projects.
+                        </p>
+                        <p class="app-platform">Windows — Available Now</p>
+                        <div class="app-store-actions">
+                            <a class="app-store-button"
+                               href="#"
+                               data-store-link="stem"
+                               aria-disabled="true">
+                                Microsoft Store Link Coming Soon
+                            </a>
+                            <div class="app-coming-soon">
+                                Mac App Store — Coming Soon
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <div class="cta-container">
+                <p class="section-eyebrow">Custom Software Development</p>
+                <h2>Need Software Built for Your Business?</h2>
+                <p>
+                    Pacific Ridge Digital also develops custom
+                    applications and digital solutions tailored
+                    to your business needs.
+                </p>
+                <a href="contact.html" class="cta-button">
+                    Discuss Your Project
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 Pacific Ridge Digital LLC.
+            All Rights Reserved.
+        </p>
+        <p class="veteran-footer">Veteran Owned LLC</p>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        document.querySelectorAll("[data-store-link]").forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                if (link.getAttribute("aria-disabled") === "true") {
+                    event.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
