@@ -16,8 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuItems = [
         ["Home", "index.html"],
         ["Web Design & Development", "pages/web-design-development.html"],
-        ["Software Development", "pages/software-development.html"],
-        ["Digital Solutions", "pages/digital-solutions.html"],
+["Software Development", "pages/software-development.html"],
+["Software Apps", "pages/software-apps.html"],
+["Digital Solutions", "pages/digital-solutions.html"],
         ["Hosting & Maintenance", "pages/hosting-maintenance.html"],
         ["Portfolio", "pages/portfolio.html"],
         ["Software Support", "pages/software-support.html"],
